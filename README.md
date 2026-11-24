@@ -34,6 +34,7 @@ Key findings (measurement window 25 Sep — 24 Nov 2026, 2.38 million OONI measu
 | `measurements.csv` | 285 | Raw OONI counters per country × service: measurement, ok, anomaly, confirmed and failure counts, ok rate, confirmed rate, status, rules version and an OONI Explorer link to the same measurements |
 | `classify.py` | — | Offline: applies rules v1 to `measurements.csv` and reproduces every status of `measurements.csv` and `data.csv` (0 mismatches on release v1) |
 | `reproduce.py` | — | Re-queries OONI for the same window and reports differences from `data.csv` |
+| `notebook.ipynb` | — | Example notebook: exit countries, service statuses, local restrictions and offline reproduction of every status |
 
 ### Columns (`data.csv`)
 
