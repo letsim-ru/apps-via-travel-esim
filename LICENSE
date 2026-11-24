@@ -1,0 +1,12 @@
+Which apps work through travel eSIMs: 196 countries
+Copyright (c) 2026 Letsim (letsim.ru)
+
+The data in this repository (data.csv, data.json, measurements.csv) are licensed under the
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).
+They are derived from measurements of the Open Observatory of Network Interference (OONI, https://ooni.org),
+which are published under the same license.
+
+Full license text: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+Attribution: Letsim (letsim.ru); measurements — Open Observatory of Network Interference (OONI), ooni.org.
+
+The scripts classify.py and reproduce.py may be used, copied and modified freely.

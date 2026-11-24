@@ -1,0 +1,43 @@
+{
+  "creators": [
+    {
+      "name": "Letsim (letsim.ru)"
+    }
+  ],
+  "language": "rus",
+  "upload_type": "dataset",
+  "access_right": "open",
+  "version": "v1 (2026-11-24)",
+  "title": "Which apps work through travel eSIMs: 196 countries (2026)",
+  "license": "cc-by-nc-sa-4.0",
+  "description": "For 196 destinations: the country through which travel eSIM traffic exits to the internet (supplier plan data) and availability of Google, YouTube, WhatsApp, Telegram and Instagram there and in the visited country, from OONI measurements (25 Sep – 24 Nov 2026, 2.38 million measurements). Derived from OONI data (CC BY-NC-SA 4.0). Page: https://letsim.ru/issledovaniya/prilozheniya-cherez-esim Disclosure: conducted by Letsim, a commercial travel eSIM provider that sells the plans discussed.",
+  "keywords": [
+    "eSIM",
+    "travel eSIM",
+    "roaming",
+    "internet censorship",
+    "OONI",
+    "WhatsApp",
+    "Telegram",
+    "YouTube",
+    "network interference",
+    "exit country"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://letsim.ru/issledovaniya/prilozheniya-cherez-esim",
+      "relation": "isSupplementTo",
+      "resource_type": "publication"
+    },
+    {
+      "identifier": "https://ooni.org/data/",
+      "relation": "isDerivedFrom",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "10.1145/3730567.3764473",
+      "relation": "references",
+      "resource_type": "publication-conferencepaper"
+    }
+  ]
+}

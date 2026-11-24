@@ -1,0 +1,4027 @@
+{
+ "title": "Какие приложения работают через туристические eSIM",
+ "publisher": "Letsim (letsim.ru)",
+ "page": "https://letsim.ru/issledovaniya/prilozheniya-cherez-esim",
+ "license": {
+  "name": "CC BY-NC-SA 4.0",
+  "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "attribution": "Letsim (letsim.ru); измерения — Open Observatory of Network Interference (OONI), ooni.org"
+ },
+ "data_sources": [
+  "Маршрутизация тарифов: данные поставщика eSIM-профилей (страна выхода в интернет)",
+  "Доступность сервисов: открытые измерения OONI, https://ooni.org"
+ ],
+ "window": {
+  "since": "2026-09-25",
+  "until": "2026-11-24"
+ },
+ "provenance": {
+  "routing_snapshot": "2026-11-23T18:21:53.680Z",
+  "ooni_window": {
+   "since": "2026-09-25",
+   "until": "2026-11-24"
+  },
+  "ooni_checked_at": "2026-11-24",
+  "rules_version": "v1",
+  "rules": "ok_rate = ok / (measurements − failures); available: ≥30 measurements, ok_rate ≥ 0.9, confirmed < 1 %; blocked: confirmed > 10 % or ok_rate < 0.6; unstable: in between; no_data: < 30 measurements",
+  "raw_measurements": "https://letsim.ru/issledovaniya/prilozheniya-cherez-esim/measurements.csv"
+ },
+ "statuses": {
+  "available": "открывается",
+  "unstable": "бывают сбои",
+  "blocked": "ограничен",
+  "no_data": "нет данных"
+ },
+ "rows": [
+  {
+   "country_code": "AU",
+   "country": "Австралия",
+   "world_region": "Океания",
+   "exit_code": "SG",
+   "exit_country": "Сингапур",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/avstraliya"
+  },
+  {
+   "country_code": "AU",
+   "country": "Австралия",
+   "world_region": "Океания",
+   "exit_code": "AU",
+   "exit_country": "Австралия",
+   "plans": "Premium",
+   "local_breakout": true,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/avstraliya"
+  },
+  {
+   "country_code": "AT",
+   "country": "Австрия",
+   "world_region": "Европа",
+   "exit_code": "FR/NL/UK",
+   "exit_country": "Франция, Нидерланды, Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/avstriya"
+  },
+  {
+   "country_code": "AZ",
+   "country": "Азербайджан",
+   "world_region": "СНГ и Кавказ",
+   "exit_code": "UK",
+   "exit_country": "Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": {
+    "google": "available",
+    "youtube": "available",
+    "whatsapp": "available",
+    "telegram": "available",
+    "instagram": "available"
+   },
+   "page_url": "https://letsim.ru/esim/azerbaidzhan"
+  },
+  {
+   "country_code": "AX",
+   "country": "Аландские острова",
+   "world_region": "Европа",
+   "exit_code": "NL/FR/US",
+   "exit_country": "Нидерланды, Франция, США",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/alandskie-ostrova"
+  },
+  {
+   "country_code": "AL",
+   "country": "Албания",
+   "world_region": "Европа",
+   "exit_code": "UK",
+   "exit_country": "Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/albaniya"
+  },
+  {
+   "country_code": "DZ",
+   "country": "Алжир",
+   "world_region": "Африка",
+   "exit_code": "UK",
+   "exit_country": "Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/alzhir"
+  },
+  {
+   "country_code": "AI",
+   "country": "Ангилья",
+   "world_region": "Карибы",
+   "exit_code": "Europe",
+   "exit_country": "Европа (страна не указана поставщиком)",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/angilya"
+  },
+  {
+   "country_code": "AO",
+   "country": "Ангола",
+   "world_region": "Африка",
+   "exit_code": "US",
+   "exit_country": "США",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/angola"
+  },
+  {
+   "country_code": "AD",
+   "country": "Андорра",
+   "world_region": "Европа",
+   "exit_code": "UK",
+   "exit_country": "Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/andorra"
+  },
+  {
+   "country_code": "AG",
+   "country": "Антигуа и Барбуда",
+   "world_region": "Карибы",
+   "exit_code": "Europe",
+   "exit_country": "Европа (страна не указана поставщиком)",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/antigua-i-barbuda"
+  },
+  {
+   "country_code": "AR",
+   "country": "Аргентина",
+   "world_region": "Латинская Америка",
+   "exit_code": "BE",
+   "exit_country": "Бельгия",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/argentina"
+  },
+  {
+   "country_code": "AM",
+   "country": "Армения",
+   "world_region": "СНГ и Кавказ",
+   "exit_code": "UK",
+   "exit_country": "Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": {
+    "google": "available",
+    "youtube": "available",
+    "whatsapp": "available",
+    "telegram": "available",
+    "instagram": "available"
+   },
+   "page_url": "https://letsim.ru/esim/armeniya"
+  },
+  {
+   "country_code": "AW",
+   "country": "Аруба",
+   "world_region": "Карибы",
+   "exit_code": "Europe",
+   "exit_country": "Европа (страна не указана поставщиком)",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/aruba"
+  },
+  {
+   "country_code": "AF",
+   "country": "Афганистан",
+   "world_region": "Азия",
+   "exit_code": "UK",
+   "exit_country": "Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/afganistan"
+  },
+  {
+   "country_code": "BS",
+   "country": "Багамы",
+   "world_region": "Карибы",
+   "exit_code": "Europe",
+   "exit_country": "Европа (страна не указана поставщиком)",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/bagamy"
+  },
+  {
+   "country_code": "BD",
+   "country": "Бангладеш",
+   "world_region": "Азия",
+   "exit_code": "UK",
+   "exit_country": "Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/bangladesh"
+  },
+  {
+   "country_code": "BB",
+   "country": "Барбадос",
+   "world_region": "Карибы",
+   "exit_code": "Europe",
+   "exit_country": "Европа (страна не указана поставщиком)",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/barbados"
+  },
+  {
+   "country_code": "BH",
+   "country": "Бахрейн",
+   "world_region": "Ближний Восток",
+   "exit_code": "UK",
+   "exit_country": "Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/bahrein"
+  },
+  {
+   "country_code": "BY",
+   "country": "Беларусь",
+   "world_region": "СНГ и Кавказ",
+   "exit_code": "UK",
+   "exit_country": "Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": {
+    "google": "available",
+    "youtube": "available",
+    "whatsapp": "available",
+    "telegram": "available",
+    "instagram": "available"
+   },
+   "page_url": "https://letsim.ru/esim/belarus"
+  },
+  {
+   "country_code": "BZ",
+   "country": "Белиз",
+   "world_region": "Латинская Америка",
+   "exit_code": "UK/NO",
+   "exit_country": "Великобритания, Норвегия",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/beliz"
+  },
+  {
+   "country_code": "BE",
+   "country": "Бельгия",
+   "world_region": "Европа",
+   "exit_code": "FR/NL/UK",
+   "exit_country": "Франция, Нидерланды, Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/belgiya"
+  },
+  {
+   "country_code": "BJ",
+   "country": "Бенин",
+   "world_region": "Африка",
+   "exit_code": "UK",
+   "exit_country": "Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/benin"
+  },
+  {
+   "country_code": "BM",
+   "country": "Бермуды",
+   "world_region": "Карибы",
+   "exit_code": "US",
+   "exit_country": "США",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/bermudy"
+  },
+  {
+   "country_code": "BG",
+   "country": "Болгария",
+   "world_region": "Европа",
+   "exit_code": "FR/NL/UK",
+   "exit_country": "Франция, Нидерланды, Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/bolgariya"
+  },
+  {
+   "country_code": "BO",
+   "country": "Боливия",
+   "world_region": "Латинская Америка",
+   "exit_code": "UK",
+   "exit_country": "Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/boliviya"
+  },
+  {
+   "country_code": "BQ",
+   "country": "Бонэйр",
+   "world_region": "Карибы",
+   "exit_code": "Europe",
+   "exit_country": "Европа (страна не указана поставщиком)",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/bonaire"
+  },
+  {
+   "country_code": "BA",
+   "country": "Босния и Герцеговина",
+   "world_region": "Европа",
+   "exit_code": "UK",
+   "exit_country": "Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/bosniya-i-gercegovina"
+  },
+  {
+   "country_code": "BW",
+   "country": "Ботсвана",
+   "world_region": "Африка",
+   "exit_code": "UK",
+   "exit_country": "Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/botsvana"
+  },
+  {
+   "country_code": "BR",
+   "country": "Бразилия",
+   "world_region": "Латинская Америка",
+   "exit_code": "BR",
+   "exit_country": "Бразилия",
+   "plans": "пакеты, безлимит",
+   "local_breakout": true,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/braziliya"
+  },
+  {
+   "country_code": "VG",
+   "country": "Британские Виргинские острова",
+   "world_region": "Карибы",
+   "exit_code": "Europe",
+   "exit_country": "Европа (страна не указана поставщиком)",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/britanskie-virginskie-ostrova"
+  },
+  {
+   "country_code": "BN",
+   "country": "Бруней",
+   "world_region": "Юго-Восточная Азия",
+   "exit_code": "SG",
+   "exit_country": "Сингапур",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/brunei"
+  },
+  {
+   "country_code": "BF",
+   "country": "Буркина-Фасо",
+   "world_region": "Африка",
+   "exit_code": "UK",
+   "exit_country": "Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/burkina-faso"
+  },
+  {
+   "country_code": "BT",
+   "country": "Бутан",
+   "world_region": "Азия",
+   "exit_code": "SG",
+   "exit_country": "Сингапур",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/butan"
+  },
+  {
+   "country_code": "VU",
+   "country": "Вануату",
+   "world_region": "Океания",
+   "exit_code": "SG",
+   "exit_country": "Сингапур",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/vanuatu"
+  },
+  {
+   "country_code": "VA",
+   "country": "Ватикан",
+   "world_region": "Европа",
+   "exit_code": "FR/NL/UK",
+   "exit_country": "Франция, Нидерланды, Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/vatikan"
+  },
+  {
+   "country_code": "GB",
+   "country": "Великобритания",
+   "world_region": "Европа",
+   "exit_code": "FR/NL/UK",
+   "exit_country": "Франция, Нидерланды, Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": true,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": {
+    "google": "available",
+    "youtube": "available",
+    "whatsapp": "available",
+    "telegram": "available",
+    "instagram": "available"
+   },
+   "page_url": "https://letsim.ru/esim/velikobritaniya"
+  },
+  {
+   "country_code": "HU",
+   "country": "Венгрия",
+   "world_region": "Европа",
+   "exit_code": "FR/NL/UK",
+   "exit_country": "Франция, Нидерланды, Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/vengriya"
+  },
+  {
+   "country_code": "VE",
+   "country": "Венесуэла",
+   "world_region": "Латинская Америка",
+   "exit_code": "UK",
+   "exit_country": "Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/venesuela"
+  },
+  {
+   "country_code": "VN",
+   "country": "Вьетнам",
+   "world_region": "Юго-Восточная Азия",
+   "exit_code": "HK",
+   "exit_country": "Гонконг",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": {
+    "google": "available",
+    "youtube": "available",
+    "whatsapp": "available",
+    "telegram": "available",
+    "instagram": "available"
+   },
+   "page_url": "https://letsim.ru/esim/vetnam"
+  },
+  {
+   "country_code": "VN",
+   "country": "Вьетнам",
+   "world_region": "Юго-Восточная Азия",
+   "exit_code": "SG",
+   "exit_country": "Сингапур",
+   "plans": "Premium",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": {
+    "google": "available",
+    "youtube": "available",
+    "whatsapp": "available",
+    "telegram": "available",
+    "instagram": "available"
+   },
+   "page_url": "https://letsim.ru/esim/vetnam"
+  },
+  {
+   "country_code": "GA",
+   "country": "Габон",
+   "world_region": "Африка",
+   "exit_code": "SG",
+   "exit_country": "Сингапур",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/gabon"
+  },
+  {
+   "country_code": "HT",
+   "country": "Гаити",
+   "world_region": "Карибы",
+   "exit_code": "SG",
+   "exit_country": "Сингапур",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/gaiti"
+  },
+  {
+   "country_code": "GY",
+   "country": "Гайана",
+   "world_region": "Латинская Америка",
+   "exit_code": "US",
+   "exit_country": "США",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/gaiana"
+  },
+  {
+   "country_code": "GM",
+   "country": "Гамбия",
+   "world_region": "Африка",
+   "exit_code": "UK",
+   "exit_country": "Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/gambiya"
+  },
+  {
+   "country_code": "GH",
+   "country": "Гана",
+   "world_region": "Африка",
+   "exit_code": "AT",
+   "exit_country": "Австрия",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/gana"
+  },
+  {
+   "country_code": "GP",
+   "country": "Гваделупа",
+   "world_region": "Карибы",
+   "exit_code": "FR/NL/UK",
+   "exit_country": "Франция, Нидерланды, Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/gvadelupa"
+  },
+  {
+   "country_code": "GT",
+   "country": "Гватемала",
+   "world_region": "Латинская Америка",
+   "exit_code": "BE",
+   "exit_country": "Бельгия",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/gvatemala"
+  },
+  {
+   "country_code": "GN",
+   "country": "Гвинея",
+   "world_region": "Африка",
+   "exit_code": "US",
+   "exit_country": "США",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/gvineya"
+  },
+  {
+   "country_code": "GW",
+   "country": "Гвинея-Бисау",
+   "world_region": "Африка",
+   "exit_code": "US",
+   "exit_country": "США",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/gvineya-bisau"
+  },
+  {
+   "country_code": "DE",
+   "country": "Германия",
+   "world_region": "Европа",
+   "exit_code": "FR/NL/UK",
+   "exit_country": "Франция, Нидерланды, Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": {
+    "google": "available",
+    "youtube": "available",
+    "whatsapp": "available",
+    "telegram": "available",
+    "instagram": "available"
+   },
+   "page_url": "https://letsim.ru/esim/germaniya"
+  },
+  {
+   "country_code": "GG",
+   "country": "Гернси",
+   "world_region": "Европа",
+   "exit_code": "UK",
+   "exit_country": "Великобритания",
+   "plans": "пакеты",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/gernsi"
+  },
+  {
+   "country_code": "GI",
+   "country": "Гибралтар",
+   "world_region": "Европа",
+   "exit_code": "BE",
+   "exit_country": "Бельгия",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/gibraltar"
+  },
+  {
+   "country_code": "HN",
+   "country": "Гондурас",
+   "world_region": "Латинская Америка",
+   "exit_code": "BE",
+   "exit_country": "Бельгия",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/gonduras"
+  },
+  {
+   "country_code": "HK",
+   "country": "Гонконг",
+   "world_region": "Азия",
+   "exit_code": "SG",
+   "exit_country": "Сингапур",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": {
+    "google": "available",
+    "youtube": "available",
+    "whatsapp": "available",
+    "telegram": "available",
+    "instagram": "available"
+   },
+   "page_url": "https://letsim.ru/esim/gonkong"
+  },
+  {
+   "country_code": "GD",
+   "country": "Гренада",
+   "world_region": "Карибы",
+   "exit_code": "Europe",
+   "exit_country": "Европа (страна не указана поставщиком)",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/grenada"
+  },
+  {
+   "country_code": "GL",
+   "country": "Гренландия",
+   "world_region": "Европа",
+   "exit_code": "US",
+   "exit_country": "США",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/grenlandiya"
+  },
+  {
+   "country_code": "GR",
+   "country": "Греция",
+   "world_region": "Европа",
+   "exit_code": "FR/NL/UK",
+   "exit_country": "Франция, Нидерланды, Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/greciya"
+  },
+  {
+   "country_code": "GE",
+   "country": "Грузия",
+   "world_region": "СНГ и Кавказ",
+   "exit_code": "UK",
+   "exit_country": "Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": {
+    "google": "available",
+    "youtube": "available",
+    "whatsapp": "available",
+    "telegram": "available",
+    "instagram": "available"
+   },
+   "page_url": "https://letsim.ru/esim/gruziya"
+  },
+  {
+   "country_code": "GU",
+   "country": "Гуам",
+   "world_region": "Океания",
+   "exit_code": "SG",
+   "exit_country": "Сингапур",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/guam"
+  },
+  {
+   "country_code": "DK",
+   "country": "Дания",
+   "world_region": "Европа",
+   "exit_code": "FR/NL/UK",
+   "exit_country": "Франция, Нидерланды, Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/daniya"
+  },
+  {
+   "country_code": "JE",
+   "country": "Джерси",
+   "world_region": "Европа",
+   "exit_code": "UK/NO",
+   "exit_country": "Великобритания, Норвегия",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/dzhersi"
+  },
+  {
+   "country_code": "DM",
+   "country": "Доминика",
+   "world_region": "Карибы",
+   "exit_code": "Europe",
+   "exit_country": "Европа (страна не указана поставщиком)",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/dominika"
+  },
+  {
+   "country_code": "DO",
+   "country": "Доминикана",
+   "world_region": "Карибы",
+   "exit_code": "SG",
+   "exit_country": "Сингапур",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/dominikana"
+  },
+  {
+   "country_code": "CD",
+   "country": "ДР Конго",
+   "world_region": "Африка",
+   "exit_code": "SG",
+   "exit_country": "Сингапур",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/dr-kongo"
+  },
+  {
+   "country_code": "EG",
+   "country": "Египет",
+   "world_region": "Африка",
+   "exit_code": "EU",
+   "exit_country": "Европа (страна не указана поставщиком)",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": {
+    "google": "available",
+    "youtube": "available",
+    "whatsapp": "available",
+    "telegram": "available",
+    "instagram": "available"
+   },
+   "page_url": "https://letsim.ru/esim/egipet"
+  },
+  {
+   "country_code": "ZM",
+   "country": "Замбия",
+   "world_region": "Африка",
+   "exit_code": "SG",
+   "exit_country": "Сингапур",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/zambiya"
+  },
+  {
+   "country_code": "IL",
+   "country": "Израиль",
+   "world_region": "Ближний Восток",
+   "exit_code": "IL",
+   "exit_country": "Израиль",
+   "plans": "пакеты, безлимит",
+   "local_breakout": true,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": {
+    "google": "available",
+    "youtube": "available",
+    "whatsapp": "available",
+    "telegram": "available",
+    "instagram": "available"
+   },
+   "page_url": "https://letsim.ru/esim/izrail"
+  },
+  {
+   "country_code": "IN",
+   "country": "Индия",
+   "world_region": "Азия",
+   "exit_code": "SG",
+   "exit_country": "Сингапур",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": {
+    "google": "available",
+    "youtube": "available",
+    "whatsapp": "available",
+    "telegram": "available",
+    "instagram": "available"
+   },
+   "page_url": "https://letsim.ru/esim/indiya"
+  },
+  {
+   "country_code": "IN",
+   "country": "Индия",
+   "world_region": "Азия",
+   "exit_code": "UK/NO",
+   "exit_country": "Великобритания, Норвегия",
+   "plans": "Premium",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": {
+    "google": "available",
+    "youtube": "available",
+    "whatsapp": "available",
+    "telegram": "available",
+    "instagram": "available"
+   },
+   "page_url": "https://letsim.ru/esim/indiya"
+  },
+  {
+   "country_code": "ID",
+   "country": "Индонезия",
+   "world_region": "Юго-Восточная Азия",
+   "exit_code": "SG",
+   "exit_country": "Сингапур",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": {
+    "google": "available",
+    "youtube": "available",
+    "whatsapp": "available",
+    "telegram": "available",
+    "instagram": "available"
+   },
+   "page_url": "https://letsim.ru/esim/indoneziya"
+  },
+  {
+   "country_code": "JO",
+   "country": "Иордания",
+   "world_region": "Ближний Восток",
+   "exit_code": "Europe",
+   "exit_country": "Европа (страна не указана поставщиком)",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/iordaniya"
+  },
+  {
+   "country_code": "IQ",
+   "country": "Ирак",
+   "world_region": "Ближний Восток",
+   "exit_code": "SG",
+   "exit_country": "Сингапур",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/irak"
+  },
+  {
+   "country_code": "IE",
+   "country": "Ирландия",
+   "world_region": "Европа",
+   "exit_code": "FR/NL/UK",
+   "exit_country": "Франция, Нидерланды, Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/irlandiya"
+  },
+  {
+   "country_code": "IS",
+   "country": "Исландия",
+   "world_region": "Европа",
+   "exit_code": "FR/NL/UK",
+   "exit_country": "Франция, Нидерланды, Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/islandiya"
+  },
+  {
+   "country_code": "ES",
+   "country": "Испания",
+   "world_region": "Европа",
+   "exit_code": "FR/NL/UK",
+   "exit_country": "Франция, Нидерланды, Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": {
+    "google": "available",
+    "youtube": "available",
+    "whatsapp": "available",
+    "telegram": "available",
+    "instagram": "available"
+   },
+   "page_url": "https://letsim.ru/esim/ispaniya"
+  },
+  {
+   "country_code": "IT",
+   "country": "Италия",
+   "world_region": "Европа",
+   "exit_code": "FR/NL/UK",
+   "exit_country": "Франция, Нидерланды, Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": {
+    "google": "available",
+    "youtube": "available",
+    "whatsapp": "available",
+    "telegram": "available",
+    "instagram": "available"
+   },
+   "page_url": "https://letsim.ru/esim/italiya"
+  },
+  {
+   "country_code": "YE",
+   "country": "Йемен",
+   "world_region": "Ближний Восток",
+   "exit_code": "PL",
+   "exit_country": "Польша",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/iemen"
+  },
+  {
+   "country_code": "CV",
+   "country": "Кабо-Верде",
+   "world_region": "Африка",
+   "exit_code": "UK",
+   "exit_country": "Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/kabo-verde"
+  },
+  {
+   "country_code": "KZ",
+   "country": "Казахстан",
+   "world_region": "СНГ и Кавказ",
+   "exit_code": "UK",
+   "exit_country": "Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": {
+    "google": "available",
+    "youtube": "available",
+    "whatsapp": "available",
+    "telegram": "available",
+    "instagram": "available"
+   },
+   "page_url": "https://letsim.ru/esim/kazahstan"
+  },
+  {
+   "country_code": "KY",
+   "country": "Каймановы острова",
+   "world_region": "Карибы",
+   "exit_code": "Europe",
+   "exit_country": "Европа (страна не указана поставщиком)",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/kaimanovy-ostrova"
+  },
+  {
+   "country_code": "KH",
+   "country": "Камбоджа",
+   "world_region": "Юго-Восточная Азия",
+   "exit_code": "SG",
+   "exit_country": "Сингапур",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/kambodzha"
+  },
+  {
+   "country_code": "CM",
+   "country": "Камерун",
+   "world_region": "Африка",
+   "exit_code": "US",
+   "exit_country": "США",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/kamerun"
+  },
+  {
+   "country_code": "CA",
+   "country": "Канада",
+   "world_region": "Северная Америка",
+   "exit_code": "US",
+   "exit_country": "США",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/kanada"
+  },
+  {
+   "country_code": "QA",
+   "country": "Катар",
+   "world_region": "Ближний Восток",
+   "exit_code": "SG",
+   "exit_country": "Сингапур",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/katar"
+  },
+  {
+   "country_code": "KE",
+   "country": "Кения",
+   "world_region": "Африка",
+   "exit_code": "IL",
+   "exit_country": "Израиль",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/keniya"
+  },
+  {
+   "country_code": "CY",
+   "country": "Кипр",
+   "world_region": "Европа",
+   "exit_code": "BE",
+   "exit_country": "Бельгия",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": {
+    "google": "available",
+    "youtube": "available",
+    "whatsapp": "available",
+    "telegram": "available",
+    "instagram": "available"
+   },
+   "page_url": "https://letsim.ru/esim/kipr"
+  },
+  {
+   "country_code": "KG",
+   "country": "Киргизия",
+   "world_region": "СНГ и Кавказ",
+   "exit_code": "UK",
+   "exit_country": "Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": {
+    "google": "no_data",
+    "youtube": "available",
+    "whatsapp": "available",
+    "telegram": "available",
+    "instagram": "available"
+   },
+   "page_url": "https://letsim.ru/esim/kirgiziya"
+  },
+  {
+   "country_code": "CN",
+   "country": "Китай",
+   "world_region": "Азия",
+   "exit_code": "HK",
+   "exit_country": "Гонконг",
+   "plans": "пакеты, безлимит «Лайт», «Стандарт», «Макс»",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": {
+    "google": "blocked",
+    "youtube": "blocked",
+    "whatsapp": "blocked",
+    "telegram": "blocked",
+    "instagram": "blocked"
+   },
+   "page_url": "https://letsim.ru/esim/kitai"
+  },
+  {
+   "country_code": "CN",
+   "country": "Китай",
+   "world_region": "Азия",
+   "exit_code": "SG",
+   "exit_country": "Сингапур",
+   "plans": "безлимит «Ультра», Premium",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": {
+    "google": "blocked",
+    "youtube": "blocked",
+    "whatsapp": "blocked",
+    "telegram": "blocked",
+    "instagram": "blocked"
+   },
+   "page_url": "https://letsim.ru/esim/kitai"
+  },
+  {
+   "country_code": "CO",
+   "country": "Колумбия",
+   "world_region": "Латинская Америка",
+   "exit_code": "BE",
+   "exit_country": "Бельгия",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/kolumbiya"
+  },
+  {
+   "country_code": "XK",
+   "country": "Косово",
+   "world_region": "Европа",
+   "exit_code": "US",
+   "exit_country": "США",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/kosovo"
+  },
+  {
+   "country_code": "CR",
+   "country": "Коста-Рика",
+   "world_region": "Латинская Америка",
+   "exit_code": "US",
+   "exit_country": "США",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/kosta-rika"
+  },
+  {
+   "country_code": "CI",
+   "country": "Кот-д’Ивуар",
+   "world_region": "Африка",
+   "exit_code": "UK",
+   "exit_country": "Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/kot-d-ivuar"
+  },
+  {
+   "country_code": "KW",
+   "country": "Кувейт",
+   "world_region": "Ближний Восток",
+   "exit_code": "UK",
+   "exit_country": "Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/kuveit"
+  },
+  {
+   "country_code": "CW",
+   "country": "Кюрасао",
+   "world_region": "Карибы",
+   "exit_code": "Europe",
+   "exit_country": "Европа (страна не указана поставщиком)",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/kyurasao"
+  },
+  {
+   "country_code": "LA",
+   "country": "Лаос",
+   "world_region": "Юго-Восточная Азия",
+   "exit_code": "SG",
+   "exit_country": "Сингапур",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/laos"
+  },
+  {
+   "country_code": "LV",
+   "country": "Латвия",
+   "world_region": "Европа",
+   "exit_code": "FR/NL/UK",
+   "exit_country": "Франция, Нидерланды, Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/latviya"
+  },
+  {
+   "country_code": "LS",
+   "country": "Лесото",
+   "world_region": "Африка",
+   "exit_code": "IL",
+   "exit_country": "Израиль",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/lesoto"
+  },
+  {
+   "country_code": "LY",
+   "country": "Ливия",
+   "world_region": "Африка",
+   "exit_code": "US",
+   "exit_country": "США",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/liviya"
+  },
+  {
+   "country_code": "LT",
+   "country": "Литва",
+   "world_region": "Европа",
+   "exit_code": "FR/NL/UK",
+   "exit_country": "Франция, Нидерланды, Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/litva"
+  },
+  {
+   "country_code": "LI",
+   "country": "Лихтенштейн",
+   "world_region": "Европа",
+   "exit_code": "FR/NL/UK",
+   "exit_country": "Франция, Нидерланды, Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/lihtenshtein"
+  },
+  {
+   "country_code": "LU",
+   "country": "Люксембург",
+   "world_region": "Европа",
+   "exit_code": "FR/NL/UK",
+   "exit_country": "Франция, Нидерланды, Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/lyuksemburg"
+  },
+  {
+   "country_code": "MU",
+   "country": "Маврикий",
+   "world_region": "Африка",
+   "exit_code": "SG",
+   "exit_country": "Сингапур",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": {
+    "google": "no_data",
+    "youtube": "available",
+    "whatsapp": "available",
+    "telegram": "available",
+    "instagram": "available"
+   },
+   "page_url": "https://letsim.ru/esim/mavrikii"
+  },
+  {
+   "country_code": "MR",
+   "country": "Мавритания",
+   "world_region": "Африка",
+   "exit_code": "UK",
+   "exit_country": "Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/mavritaniya"
+  },
+  {
+   "country_code": "MG",
+   "country": "Мадагаскар",
+   "world_region": "Африка",
+   "exit_code": "UK",
+   "exit_country": "Великобритания",
+   "plans": "пакеты",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/madagaskar"
+  },
+  {
+   "country_code": "YT",
+   "country": "Майотта",
+   "world_region": "Африка",
+   "exit_code": "FR/NL/UK",
+   "exit_country": "Франция, Нидерланды, Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/maiotta"
+  },
+  {
+   "country_code": "MO",
+   "country": "Макао",
+   "world_region": "Азия",
+   "exit_code": "SG",
+   "exit_country": "Сингапур",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/makao"
+  },
+  {
+   "country_code": "MO",
+   "country": "Макао",
+   "world_region": "Азия",
+   "exit_code": "HK",
+   "exit_country": "Гонконг",
+   "plans": "пакеты",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/makao"
+  },
+  {
+   "country_code": "MW",
+   "country": "Малави",
+   "world_region": "Африка",
+   "exit_code": "SG",
+   "exit_country": "Сингапур",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/malavi"
+  },
+  {
+   "country_code": "MY",
+   "country": "Малайзия",
+   "world_region": "Юго-Восточная Азия",
+   "exit_code": "MY",
+   "exit_country": "Малайзия",
+   "plans": "пакеты, безлимит",
+   "local_breakout": true,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/malaiziya"
+  },
+  {
+   "country_code": "MY",
+   "country": "Малайзия",
+   "world_region": "Юго-Восточная Азия",
+   "exit_code": "SG",
+   "exit_country": "Сингапур",
+   "plans": "пакеты, Premium",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/malaiziya"
+  },
+  {
+   "country_code": "MV",
+   "country": "Мальдивы",
+   "world_region": "Азия",
+   "exit_code": "PL",
+   "exit_country": "Польша",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": {
+    "google": "no_data",
+    "youtube": "available",
+    "whatsapp": "available",
+    "telegram": "available",
+    "instagram": "available"
+   },
+   "page_url": "https://letsim.ru/esim/maldivy"
+  },
+  {
+   "country_code": "MT",
+   "country": "Мальта",
+   "world_region": "Европа",
+   "exit_code": "FR/NL/UK",
+   "exit_country": "Франция, Нидерланды, Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/malta"
+  },
+  {
+   "country_code": "MA",
+   "country": "Марокко",
+   "world_region": "Африка",
+   "exit_code": "BE",
+   "exit_country": "Бельгия",
+   "plans": "пакеты",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": {
+    "google": "available",
+    "youtube": "available",
+    "whatsapp": "available",
+    "telegram": "available",
+    "instagram": "available"
+   },
+   "page_url": "https://letsim.ru/esim/marokko"
+  },
+  {
+   "country_code": "MA",
+   "country": "Марокко",
+   "world_region": "Африка",
+   "exit_code": "Europe",
+   "exit_country": "Европа (страна не указана поставщиком)",
+   "plans": "безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": {
+    "google": "available",
+    "youtube": "available",
+    "whatsapp": "available",
+    "telegram": "available",
+    "instagram": "available"
+   },
+   "page_url": "https://letsim.ru/esim/marokko"
+  },
+  {
+   "country_code": "MQ",
+   "country": "Мартиника",
+   "world_region": "Карибы",
+   "exit_code": "FR/NL/UK",
+   "exit_country": "Франция, Нидерланды, Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/martinika"
+  },
+  {
+   "country_code": "MX",
+   "country": "Мексика",
+   "world_region": "Латинская Америка",
+   "exit_code": "BE",
+   "exit_country": "Бельгия",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/meksika"
+  },
+  {
+   "country_code": "MZ",
+   "country": "Мозамбик",
+   "world_region": "Африка",
+   "exit_code": "US",
+   "exit_country": "США",
+   "plans": "пакеты",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/mozambik"
+  },
+  {
+   "country_code": "MD",
+   "country": "Молдова",
+   "world_region": "СНГ и Кавказ",
+   "exit_code": "FR/NL/UK",
+   "exit_country": "Франция, Нидерланды, Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/moldova"
+  },
+  {
+   "country_code": "MC",
+   "country": "Монако",
+   "world_region": "Европа",
+   "exit_code": "SG",
+   "exit_country": "Сингапур",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/monako"
+  },
+  {
+   "country_code": "MN",
+   "country": "Монголия",
+   "world_region": "Азия",
+   "exit_code": "SG",
+   "exit_country": "Сингапур",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": {
+    "google": "no_data",
+    "youtube": "no_data",
+    "whatsapp": "no_data",
+    "telegram": "no_data",
+    "instagram": "no_data"
+   },
+   "page_url": "https://letsim.ru/esim/mongoliya"
+  },
+  {
+   "country_code": "MS",
+   "country": "Монтсеррат",
+   "world_region": "Карибы",
+   "exit_code": "Europe",
+   "exit_country": "Европа (страна не указана поставщиком)",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/montserrat"
+  },
+  {
+   "country_code": "NR",
+   "country": "Науру",
+   "world_region": "Океания",
+   "exit_code": "SG",
+   "exit_country": "Сингапур",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/nauru"
+  },
+  {
+   "country_code": "NP",
+   "country": "Непал",
+   "world_region": "Азия",
+   "exit_code": "SG",
+   "exit_country": "Сингапур",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/nepal"
+  },
+  {
+   "country_code": "NE",
+   "country": "Нигер",
+   "world_region": "Африка",
+   "exit_code": "SG",
+   "exit_country": "Сингапур",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/niger"
+  },
+  {
+   "country_code": "NG",
+   "country": "Нигерия",
+   "world_region": "Африка",
+   "exit_code": "UK",
+   "exit_country": "Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/nigeriya"
+  },
+  {
+   "country_code": "NL",
+   "country": "Нидерланды",
+   "world_region": "Европа",
+   "exit_code": "FR/NL/UK",
+   "exit_country": "Франция, Нидерланды, Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": true,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": {
+    "google": "available",
+    "youtube": "available",
+    "whatsapp": "available",
+    "telegram": "available",
+    "instagram": "available"
+   },
+   "page_url": "https://letsim.ru/esim/niderlandy"
+  },
+  {
+   "country_code": "NI",
+   "country": "Никарагуа",
+   "world_region": "Латинская Америка",
+   "exit_code": "BE",
+   "exit_country": "Бельгия",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/nikaragua"
+  },
+  {
+   "country_code": "NZ",
+   "country": "Новая Зеландия",
+   "world_region": "Океания",
+   "exit_code": "UK",
+   "exit_country": "Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/novaya-zelandiya"
+  },
+  {
+   "country_code": "NC",
+   "country": "Новая Каледония",
+   "world_region": "Океания",
+   "exit_code": "AT",
+   "exit_country": "Австрия",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/novaya-kaledoniya"
+  },
+  {
+   "country_code": "NO",
+   "country": "Норвегия",
+   "world_region": "Европа",
+   "exit_code": "FR/NL/UK",
+   "exit_country": "Франция, Нидерланды, Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/norvegiya"
+  },
+  {
+   "country_code": "AE",
+   "country": "ОАЭ",
+   "world_region": "Ближний Восток",
+   "exit_code": "Europe",
+   "exit_country": "Европа (страна не указана поставщиком)",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": {
+    "google": "available",
+    "youtube": "available",
+    "whatsapp": "available",
+    "telegram": "available",
+    "instagram": "available"
+   },
+   "page_url": "https://letsim.ru/esim/oae"
+  },
+  {
+   "country_code": "OM",
+   "country": "Оман",
+   "world_region": "Ближний Восток",
+   "exit_code": "Europe",
+   "exit_country": "Европа (страна не указана поставщиком)",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/oman"
+  },
+  {
+   "country_code": "IM",
+   "country": "Остров Мэн",
+   "world_region": "Европа",
+   "exit_code": "UK/NO",
+   "exit_country": "Великобритания, Норвегия",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/ostrov-men"
+  },
+  {
+   "country_code": "PK",
+   "country": "Пакистан",
+   "world_region": "Азия",
+   "exit_code": "UK",
+   "exit_country": "Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/pakistan"
+  },
+  {
+   "country_code": "PA",
+   "country": "Панама",
+   "world_region": "Латинская Америка",
+   "exit_code": "IL",
+   "exit_country": "Израиль",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/panama"
+  },
+  {
+   "country_code": "PG",
+   "country": "Папуа — Новая Гвинея",
+   "world_region": "Океания",
+   "exit_code": "SG",
+   "exit_country": "Сингапур",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/papua-novaya-gvineya"
+  },
+  {
+   "country_code": "PY",
+   "country": "Парагвай",
+   "world_region": "Латинская Америка",
+   "exit_code": "BE",
+   "exit_country": "Бельгия",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/paragvai"
+  },
+  {
+   "country_code": "PE",
+   "country": "Перу",
+   "world_region": "Латинская Америка",
+   "exit_code": "BE",
+   "exit_country": "Бельгия",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/peru"
+  },
+  {
+   "country_code": "PL",
+   "country": "Польша",
+   "world_region": "Европа",
+   "exit_code": "FR/NL/UK",
+   "exit_country": "Франция, Нидерланды, Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/polsha"
+  },
+  {
+   "country_code": "PT",
+   "country": "Португалия",
+   "world_region": "Европа",
+   "exit_code": "FR/NL/UK",
+   "exit_country": "Франция, Нидерланды, Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/portugaliya"
+  },
+  {
+   "country_code": "PR",
+   "country": "Пуэрто-Рико",
+   "world_region": "Карибы",
+   "exit_code": "BE",
+   "exit_country": "Бельгия",
+   "plans": "пакеты",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/puerto-riko"
+  },
+  {
+   "country_code": "CG",
+   "country": "Республика Конго",
+   "world_region": "Африка",
+   "exit_code": "UK",
+   "exit_country": "Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/respublika-kongo"
+  },
+  {
+   "country_code": "RE",
+   "country": "Реюньон",
+   "world_region": "Африка",
+   "exit_code": "FR/NL/UK",
+   "exit_country": "Франция, Нидерланды, Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/reyunon"
+  },
+  {
+   "country_code": "RW",
+   "country": "Руанда",
+   "world_region": "Африка",
+   "exit_code": "SG",
+   "exit_country": "Сингапур",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/ruanda"
+  },
+  {
+   "country_code": "RO",
+   "country": "Румыния",
+   "world_region": "Европа",
+   "exit_code": "FR/NL/UK",
+   "exit_country": "Франция, Нидерланды, Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/rumyniya"
+  },
+  {
+   "country_code": "SV",
+   "country": "Сальвадор",
+   "world_region": "Латинская Америка",
+   "exit_code": "BE",
+   "exit_country": "Бельгия",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/salvador"
+  },
+  {
+   "country_code": "WS",
+   "country": "Самоа",
+   "world_region": "Океания",
+   "exit_code": "SG",
+   "exit_country": "Сингапур",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/samoa"
+  },
+  {
+   "country_code": "SM",
+   "country": "Сан-Марино",
+   "world_region": "Европа",
+   "exit_code": "FR/NL/UK",
+   "exit_country": "Франция, Нидерланды, Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/san-marino"
+  },
+  {
+   "country_code": "SA",
+   "country": "Саудовская Аравия",
+   "world_region": "Ближний Восток",
+   "exit_code": "BE",
+   "exit_country": "Бельгия",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/saudovskaya-araviya"
+  },
+  {
+   "country_code": "MK",
+   "country": "Северная Македония",
+   "world_region": "Европа",
+   "exit_code": "AT",
+   "exit_country": "Австрия",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/severnaya-makedoniya"
+  },
+  {
+   "country_code": "SC",
+   "country": "Сейшелы",
+   "world_region": "Африка",
+   "exit_code": "SG",
+   "exit_country": "Сингапур",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": {
+    "google": "no_data",
+    "youtube": "no_data",
+    "whatsapp": "no_data",
+    "telegram": "no_data",
+    "instagram": "no_data"
+   },
+   "page_url": "https://letsim.ru/esim/seishely"
+  },
+  {
+   "country_code": "BL",
+   "country": "Сен-Бартелеми",
+   "world_region": "Карибы",
+   "exit_code": "FR/NL/UK",
+   "exit_country": "Франция, Нидерланды, Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/sen-bartelemi"
+  },
+  {
+   "country_code": "MF",
+   "country": "Сен-Мартен",
+   "world_region": "Карибы",
+   "exit_code": "FR/NL/UK",
+   "exit_country": "Франция, Нидерланды, Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/sen-marten"
+  },
+  {
+   "country_code": "SN",
+   "country": "Сенегал",
+   "world_region": "Африка",
+   "exit_code": "NL",
+   "exit_country": "Нидерланды",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/senegal"
+  },
+  {
+   "country_code": "VC",
+   "country": "Сент-Винсент и Гренадины",
+   "world_region": "Карибы",
+   "exit_code": "UK",
+   "exit_country": "Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/sent-vinsent-i-grenadiny"
+  },
+  {
+   "country_code": "KN",
+   "country": "Сент-Китс и Невис",
+   "world_region": "Карибы",
+   "exit_code": "Europe",
+   "exit_country": "Европа (страна не указана поставщиком)",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/sent-kits-i-nevis"
+  },
+  {
+   "country_code": "LC",
+   "country": "Сент-Люсия",
+   "world_region": "Карибы",
+   "exit_code": "Europe",
+   "exit_country": "Европа (страна не указана поставщиком)",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/sent-lyusiya"
+  },
+  {
+   "country_code": "RS",
+   "country": "Сербия",
+   "world_region": "Европа",
+   "exit_code": "AT",
+   "exit_country": "Австрия",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": {
+    "google": "available",
+    "youtube": "available",
+    "whatsapp": "available",
+    "telegram": "available",
+    "instagram": "available"
+   },
+   "page_url": "https://letsim.ru/esim/serbiya"
+  },
+  {
+   "country_code": "SG",
+   "country": "Сингапур",
+   "world_region": "Юго-Восточная Азия",
+   "exit_code": "HK",
+   "exit_country": "Гонконг",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": {
+    "google": "available",
+    "youtube": "available",
+    "whatsapp": "available",
+    "telegram": "available",
+    "instagram": "available"
+   },
+   "page_url": "https://letsim.ru/esim/singapur"
+  },
+  {
+   "country_code": "SK",
+   "country": "Словакия",
+   "world_region": "Европа",
+   "exit_code": "FR/NL/UK",
+   "exit_country": "Франция, Нидерланды, Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/slovakiya"
+  },
+  {
+   "country_code": "SI",
+   "country": "Словения",
+   "world_region": "Европа",
+   "exit_code": "FR/NL/UK",
+   "exit_country": "Франция, Нидерланды, Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/sloveniya"
+  },
+  {
+   "country_code": "SR",
+   "country": "Суринам",
+   "world_region": "Латинская Америка",
+   "exit_code": "US",
+   "exit_country": "США",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/surinam"
+  },
+  {
+   "country_code": "US",
+   "country": "США",
+   "world_region": "Северная Америка",
+   "exit_code": "US",
+   "exit_country": "США",
+   "plans": "пакеты, безлимит",
+   "local_breakout": true,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": {
+    "google": "available",
+    "youtube": "available",
+    "whatsapp": "available",
+    "telegram": "available",
+    "instagram": "available"
+   },
+   "page_url": "https://letsim.ru/esim/ssha"
+  },
+  {
+   "country_code": "SL",
+   "country": "Сьерра-Леоне",
+   "world_region": "Африка",
+   "exit_code": "UK",
+   "exit_country": "Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/serra-leone"
+  },
+  {
+   "country_code": "TJ",
+   "country": "Таджикистан",
+   "world_region": "СНГ и Кавказ",
+   "exit_code": "UK",
+   "exit_country": "Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": {
+    "google": "no_data",
+    "youtube": "available",
+    "whatsapp": "available",
+    "telegram": "available",
+    "instagram": "available"
+   },
+   "page_url": "https://letsim.ru/esim/tadzhikistan"
+  },
+  {
+   "country_code": "TH",
+   "country": "Таиланд",
+   "world_region": "Юго-Восточная Азия",
+   "exit_code": "HK",
+   "exit_country": "Гонконг",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": {
+    "google": "available",
+    "youtube": "available",
+    "whatsapp": "available",
+    "telegram": "available",
+    "instagram": "available"
+   },
+   "page_url": "https://letsim.ru/esim/tailand"
+  },
+  {
+   "country_code": "TH",
+   "country": "Таиланд",
+   "world_region": "Юго-Восточная Азия",
+   "exit_code": "SG",
+   "exit_country": "Сингапур",
+   "plans": "пакеты, Premium",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": {
+    "google": "available",
+    "youtube": "available",
+    "whatsapp": "available",
+    "telegram": "available",
+    "instagram": "available"
+   },
+   "page_url": "https://letsim.ru/esim/tailand"
+  },
+  {
+   "country_code": "TH",
+   "country": "Таиланд",
+   "world_region": "Юго-Восточная Азия",
+   "exit_code": "TH",
+   "exit_country": "Таиланд",
+   "plans": "пакеты",
+   "local_breakout": true,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": {
+    "google": "available",
+    "youtube": "available",
+    "whatsapp": "available",
+    "telegram": "available",
+    "instagram": "available"
+   },
+   "page_url": "https://letsim.ru/esim/tailand"
+  },
+  {
+   "country_code": "TZ",
+   "country": "Танзания",
+   "world_region": "Африка",
+   "exit_code": "UK",
+   "exit_country": "Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": {
+    "google": "available",
+    "youtube": "available",
+    "whatsapp": "available",
+    "telegram": "blocked",
+    "instagram": "available"
+   },
+   "page_url": "https://letsim.ru/esim/tanzaniya"
+  },
+  {
+   "country_code": "TC",
+   "country": "Тёркс и Кайкос",
+   "world_region": "Карибы",
+   "exit_code": "US",
+   "exit_country": "США",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/terks-i-kaikos"
+  },
+  {
+   "country_code": "TG",
+   "country": "Того",
+   "world_region": "Африка",
+   "exit_code": "US",
+   "exit_country": "США",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/togo"
+  },
+  {
+   "country_code": "TO",
+   "country": "Тонга",
+   "world_region": "Океания",
+   "exit_code": "SG",
+   "exit_country": "Сингапур",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/tonga"
+  },
+  {
+   "country_code": "TT",
+   "country": "Тринидад и Тобаго",
+   "world_region": "Карибы",
+   "exit_code": "US",
+   "exit_country": "США",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/trinidad-i-tobago"
+  },
+  {
+   "country_code": "TN",
+   "country": "Тунис",
+   "world_region": "Африка",
+   "exit_code": "UK",
+   "exit_country": "Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": {
+    "google": "no_data",
+    "youtube": "available",
+    "whatsapp": "available",
+    "telegram": "available",
+    "instagram": "available"
+   },
+   "page_url": "https://letsim.ru/esim/tunis"
+  },
+  {
+   "country_code": "TR",
+   "country": "Турция",
+   "world_region": "Ближний Восток",
+   "exit_code": "NL/FR",
+   "exit_country": "Нидерланды, Франция",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": {
+    "google": "available",
+    "youtube": "available",
+    "whatsapp": "available",
+    "telegram": "unstable",
+    "instagram": "unstable"
+   },
+   "page_url": "https://letsim.ru/esim/turciya"
+  },
+  {
+   "country_code": "UG",
+   "country": "Уганда",
+   "world_region": "Африка",
+   "exit_code": "SG",
+   "exit_country": "Сингапур",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/uganda"
+  },
+  {
+   "country_code": "UZ",
+   "country": "Узбекистан",
+   "world_region": "СНГ и Кавказ",
+   "exit_code": "UK",
+   "exit_country": "Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": {
+    "google": "available",
+    "youtube": "available",
+    "whatsapp": "available",
+    "telegram": "unstable",
+    "instagram": "available"
+   },
+   "page_url": "https://letsim.ru/esim/uzbekistan"
+  },
+  {
+   "country_code": "UY",
+   "country": "Уругвай",
+   "world_region": "Латинская Америка",
+   "exit_code": "AT",
+   "exit_country": "Австрия",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/urugvai"
+  },
+  {
+   "country_code": "FO",
+   "country": "Фарерские острова",
+   "world_region": "Европа",
+   "exit_code": "IL",
+   "exit_country": "Израиль",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/farerskie-ostrova"
+  },
+  {
+   "country_code": "FJ",
+   "country": "Фиджи",
+   "world_region": "Океания",
+   "exit_code": "UK",
+   "exit_country": "Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/fidzhi"
+  },
+  {
+   "country_code": "PH",
+   "country": "Филиппины",
+   "world_region": "Юго-Восточная Азия",
+   "exit_code": "SG",
+   "exit_country": "Сингапур",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": {
+    "google": "available",
+    "youtube": "available",
+    "whatsapp": "available",
+    "telegram": "available",
+    "instagram": "available"
+   },
+   "page_url": "https://letsim.ru/esim/filippiny"
+  },
+  {
+   "country_code": "FI",
+   "country": "Финляндия",
+   "world_region": "Европа",
+   "exit_code": "FR/NL/UK",
+   "exit_country": "Франция, Нидерланды, Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/finlyandiya"
+  },
+  {
+   "country_code": "FR",
+   "country": "Франция",
+   "world_region": "Европа",
+   "exit_code": "Europe",
+   "exit_country": "Европа (страна не указана поставщиком)",
+   "plans": "пакеты, безлимит",
+   "local_breakout": true,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": {
+    "google": "available",
+    "youtube": "available",
+    "whatsapp": "available",
+    "telegram": "available",
+    "instagram": "available"
+   },
+   "page_url": "https://letsim.ru/esim/franciya"
+  },
+  {
+   "country_code": "GF",
+   "country": "Французская Гвиана",
+   "world_region": "Латинская Америка",
+   "exit_code": "FR/NL/UK",
+   "exit_country": "Франция, Нидерланды, Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/francuzskaya-gviana"
+  },
+  {
+   "country_code": "PF",
+   "country": "Французская Полинезия",
+   "world_region": "Океания",
+   "exit_code": "IL",
+   "exit_country": "Израиль",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/francuzskaya-polineziya"
+  },
+  {
+   "country_code": "HR",
+   "country": "Хорватия",
+   "world_region": "Европа",
+   "exit_code": "FR/NL/UK",
+   "exit_country": "Франция, Нидерланды, Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/horvatiya"
+  },
+  {
+   "country_code": "CF",
+   "country": "ЦАР",
+   "world_region": "Африка",
+   "exit_code": "US",
+   "exit_country": "США",
+   "plans": "пакеты",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/car"
+  },
+  {
+   "country_code": "TD",
+   "country": "Чад",
+   "world_region": "Африка",
+   "exit_code": "SG",
+   "exit_country": "Сингапур",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/chad"
+  },
+  {
+   "country_code": "ME",
+   "country": "Черногория",
+   "world_region": "Европа",
+   "exit_code": "UK",
+   "exit_country": "Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": {
+    "google": "no_data",
+    "youtube": "available",
+    "whatsapp": "no_data",
+    "telegram": "no_data",
+    "instagram": "unstable"
+   },
+   "page_url": "https://letsim.ru/esim/chernogoriya"
+  },
+  {
+   "country_code": "CZ",
+   "country": "Чехия",
+   "world_region": "Европа",
+   "exit_code": "FR/NL/UK",
+   "exit_country": "Франция, Нидерланды, Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/chehiya"
+  },
+  {
+   "country_code": "CL",
+   "country": "Чили",
+   "world_region": "Латинская Америка",
+   "exit_code": "BE",
+   "exit_country": "Бельгия",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/chili"
+  },
+  {
+   "country_code": "CH",
+   "country": "Швейцария",
+   "world_region": "Европа",
+   "exit_code": "FR/NL/UK",
+   "exit_country": "Франция, Нидерланды, Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/shveicariya"
+  },
+  {
+   "country_code": "SE",
+   "country": "Швеция",
+   "world_region": "Европа",
+   "exit_code": "FR/NL/UK",
+   "exit_country": "Франция, Нидерланды, Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/shveciya"
+  },
+  {
+   "country_code": "LK",
+   "country": "Шри-Ланка",
+   "world_region": "Азия",
+   "exit_code": "NL",
+   "exit_country": "Нидерланды",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/shri-lanka"
+  },
+  {
+   "country_code": "EC",
+   "country": "Эквадор",
+   "world_region": "Латинская Америка",
+   "exit_code": "BE",
+   "exit_country": "Бельгия",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/ekvador"
+  },
+  {
+   "country_code": "SZ",
+   "country": "Эсватини",
+   "world_region": "Африка",
+   "exit_code": "US",
+   "exit_country": "США",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/esvatini"
+  },
+  {
+   "country_code": "EE",
+   "country": "Эстония",
+   "world_region": "Европа",
+   "exit_code": "FR/NL/UK",
+   "exit_country": "Франция, Нидерланды, Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/estoniya"
+  },
+  {
+   "country_code": "ET",
+   "country": "Эфиопия",
+   "world_region": "Африка",
+   "exit_code": "UK",
+   "exit_country": "Великобритания",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/efiopiya"
+  },
+  {
+   "country_code": "ZA",
+   "country": "ЮАР",
+   "world_region": "Африка",
+   "exit_code": "FR/DE",
+   "exit_country": "Франция, Германия",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": {
+    "google": "available",
+    "youtube": "available",
+    "whatsapp": "available",
+    "telegram": "available",
+    "instagram": "available"
+   },
+   "page_url": "https://letsim.ru/esim/yuar"
+  },
+  {
+   "country_code": "KR",
+   "country": "Южная Корея",
+   "world_region": "Азия",
+   "exit_code": "SG",
+   "exit_country": "Сингапур",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": {
+    "google": "available",
+    "youtube": "available",
+    "whatsapp": "available",
+    "telegram": "available",
+    "instagram": "available"
+   },
+   "page_url": "https://letsim.ru/esim/yuzhnaya-koreya"
+  },
+  {
+   "country_code": "SS",
+   "country": "Южный Судан",
+   "world_region": "Африка",
+   "exit_code": "US",
+   "exit_country": "США",
+   "plans": "пакеты, безлимит",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/yuzhnyi-sudan"
+  },
+  {
+   "country_code": "JM",
+   "country": "Ямайка",
+   "world_region": "Карибы",
+   "exit_code": "Europe",
+   "exit_country": "Европа (страна не указана поставщиком)",
+   "plans": "пакеты",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": null,
+   "page_url": "https://letsim.ru/esim/yamaika"
+  },
+  {
+   "country_code": "JP",
+   "country": "Япония",
+   "world_region": "Азия",
+   "exit_code": "HK",
+   "exit_country": "Гонконг",
+   "plans": "пакеты, безлимит, Premium",
+   "local_breakout": false,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": {
+    "google": "available",
+    "youtube": "available",
+    "whatsapp": "available",
+    "telegram": "available",
+    "instagram": "available"
+   },
+   "page_url": "https://letsim.ru/esim/yaponiya"
+  },
+  {
+   "country_code": "JP",
+   "country": "Япония",
+   "world_region": "Азия",
+   "exit_code": "JP",
+   "exit_country": "Япония",
+   "plans": "пакеты",
+   "local_breakout": true,
+   "via_esim": {
+    "whatsapp": "available",
+    "telegram": "available",
+    "google": "available",
+    "youtube": "available",
+    "instagram": "available"
+   },
+   "in_country": {
+    "google": "available",
+    "youtube": "available",
+    "whatsapp": "available",
+    "telegram": "available",
+    "instagram": "available"
+   },
+   "page_url": "https://letsim.ru/esim/yaponiya"
+  }
+ ]
+}

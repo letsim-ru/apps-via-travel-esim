@@ -1,0 +1,10 @@
+{
+  "title": "Which apps work through travel eSIMs (196 countries)",
+  "id": "<kaggle-user>/apps-via-travel-esim",
+  "licenses": [
+    {
+      "name": "CC-BY-NC-SA-4.0"
+    }
+  ],
+  "subtitle": "Exit countries of travel eSIMs and OONI availability of 5 apps"
+}
